@@ -31,6 +31,71 @@ a:hover {
 
 
 /*
+ * Masonry for the Resource page
+ */
+
+ /*.img-thumbnail {
+    padding: 10px;
+}
+.post-box {
+    margin: 15px 0 15px 0;
+}*/
+
+
+.grid {
+  background: RGBA(31, 110, 147, 1);
+  max-width: 750px;
+  padding-top: 20px;
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- grid-item ---- */
+
+.grid-item {
+  width: 160px;
+  height: 120px;
+  float: left;
+  background: RGBA(195, 208, 214, .3);
+  border: 1px solid #fff;
+  border-color: hsla(0, 0%, 0%, 0.5);
+  border-radius: 5px;
+}
+
+.grid-item--width2 { width:  320px; }
+.grid-item--width3 { width:  480px; }
+.grid-item--width4 { width:  720px; }
+
+.grid-item--height2 { height: 200px; }
+.grid-item--height3 { height: 260px; }
+.grid-item--height4 { height: 360px; }
+
+/* ---- static-banner ---- */
+
+/*.static-banner {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  padding: 10px 30px;
+  color: white;
+  background: #A2C;
+  font-size: 22px;
+  z-index: 2; /* above items */
+}*/
+
+.masonry-div  {
+  max-width: 600px;
+
+}
+
+
+
+/*
  * Base structure
  */
 
@@ -149,11 +214,11 @@ body {
 @media (min-width: 768px) {
   /* Pull out the header and footer */
   .masthead {
-    position: fixed;
+    /*position: fixed;*/
     top: 0;
   }
   .mastfoot {
-    position: fixed;
+    /*position: fixed;*/
     bottom: 0;
   }
   /* Start the vertical centering */
