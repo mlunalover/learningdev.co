@@ -16,7 +16,7 @@ $(document).ready(function() {
     $('.grid').masonry({
       itemSelector: '.grid-item',
       columnWidth: 160,
-      "gutter": 6
+      "gutter": 8
     });
 
 //Resources Toggle
