@@ -1,9 +1,5 @@
 $(document).ready(function() {
-  // $("#target1").css("color", "red");
-  // $("#target1").prop("disabled", true);
-  // $("#target4").remove();
-  // $("#target2").appendTo("#right-well");
-  // $("#target5").clone().appendTo("#left-well");
+
   $( "#learn-more" ).hide();
 
   $( "#learn-more" ).fadeIn( 2000, function() {
@@ -18,6 +14,8 @@ $(document).ready(function() {
       columnWidth: 160,
       "gutter": 8
     });
+
+
 
 //Resources Toggle
 
