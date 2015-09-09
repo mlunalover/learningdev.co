@@ -99,6 +99,16 @@ a:hover {
 
 }
 
+.key-3  {
+  position: absolute;
+  left: 160px;
+  top: 0px;
+  padding: 5px 5px;
+  font-size: 22px;
+  z-index: 2; /* above items */
+
+}
+
 
 
 
