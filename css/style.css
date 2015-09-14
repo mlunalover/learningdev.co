@@ -19,15 +19,48 @@ a:hover {
   border: 1px solid #fff;
 }
 
-/* Custom dropdown button */
 
-/*.dropdown-menu li>a {
-  color:white;
+/*Tools*/
+
+.smtool {
+  border-style: solid;
+  height: 100px;
+  border-color: RGBA(25, 109, 149, 1);
+  padding-top: 25px;
 }
 
-.dropdown li{
-  background-color: RGBA(40, 44, 52, 1);
-}*/
+.expand_tool  {
+  border-color: RGBA(25, 109, 149, 1);
+  border-style: solid;
+}
+
+.smtool h4 {
+  /*color: RGBA(25, 109, 149, 1);*/
+}
+
+.atom {
+  background-color: RGBA(29, 168, 119, 1);
+}
+
+.pocket {
+  background-color: RGBA(238, 60, 79, 1);
+}
+
+.paste  {
+  background-color: RGBA(239, 131, 23, 1);
+}
+
+.balsamiq {
+  background-color: RGBA(119, 0, 2, 1);
+}
+
+.evernote {
+  background-color: RGBA(48, 174, 34, 1);
+}
+
+.slack  {
+  background-color: RGBA(230, 25, 111, 1);
+}
 
 
 /*

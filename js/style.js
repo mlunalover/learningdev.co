@@ -6,6 +6,7 @@ $(document).ready(function() {
 
   });
 
+
   //Masonry Js
 
 
@@ -35,6 +36,20 @@ $("#sites-button").click(function(){
     $(".book").toggle();
 });
 
+
+//Tools Toggle
+
+$(".atom_packages").hide();
+
+$(".slack_teams").hide();
+
+$(".atom").click(function(){
+    $(".atom_packages").toggle();
+});
+
+$(".slack").click(function(){
+    $(".slack_teams").toggle();
+});
 
 
 });
