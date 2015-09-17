@@ -169,17 +169,35 @@ body {
   padding-bottom: 30px;
 }
 
+.main-button  {
+  border-radius: 2px;
+}
+
 /*
  * Contact
  */
 
+.contact-text {
+  font-size: 20px;
+}
 
- /*.contact-form  {
-   text-align: left;
+.contact-button {
+    text-shadow: none;
+    background-color: #fff;
+    border: none;
+    margin-top: 30px;
+    border-radius: 2px;
+}
 
- }*/
+.help-block.with-errors {
+  font-size: 12px;
+  color: RGBA(239, 131, 23, 1);
+  font-weight: bold;
+}
 
-
+/*.has-error  {
+  border: 3px solid RGBA(239, 131, 23, 1);
+}*/
 
  /*
   * About Page

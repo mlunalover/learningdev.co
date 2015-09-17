@@ -51,20 +51,21 @@
           <div class="inner cover">
             <div class="contact-form">
 
-              <form role="form" action="MAILTO:mlunalover@gmail.com" method="POST" enctype="text/plain">
+              <form role="form" action="MAILTO:mlunalover@gmail.com" method="POST" enctype="text/plain" data-toggle="validator">
                 <div class="form-group">
-                  <label for="pwd">Name:</label>
-                  <input type="name" class="form-control" id="name" placeholder="name" name="name">
+                  <label for="name" class="contact-text">Name:</label>
+                  <input type="name" class="form-control input-lg" id="inputName" placeholder="name" name="name" required>
                 </div>
                 <div class="form-group">
-                  <label for="email">Email:</label>
-                  <input type="email" class="form-control" id="email" placeholder="email@address.com" name="email">
+                  <label for="inputEmail" class="contact-text">Email:</label>
+                  <input type="email" class="form-control input-lg" id="inputEmail" placeholder="email@address.com" name="email" data-error="Dude, that email address doesn't work" required>
+                  <div class="help-block with-errors"></div>
                 </div>
                 <div class="form-group">
-                  <label for="comment">Comment:</label>
-                  <textarea class="form-control" rows="5" id="comment" name="comment"></textarea>
+                  <label for="comment" class="contact-text">Comment:</label>
+                  <textarea class="form-control input-lg" rows="5" id="comment" name="comment"></textarea>
                 </div>
-                <button type="submit" class="btn btn-default">Submit</button>
+                <button type="submit" class="btn btn-default btn-lg btn-block contact-button" value="submit">Submit</button>
               </form>
 
             </div>
@@ -92,6 +93,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.js"></script>
 
     <script src="js/style.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/validator.js" type="text/javascript" charset="utf-8"></script>
 
     </script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->

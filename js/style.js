@@ -14,6 +14,9 @@ $(document).ready(function() {
       itemSelector: '.grid-item',
       columnWidth: 160,
       "gutter": 8
+
+      //$grid.marsonry('destory');
+      //$grid.masonry({ itemSelector: '.grid-item'});
     });
 
 
@@ -22,8 +25,11 @@ $(document).ready(function() {
 
 $("#web-button").click(function(){
     // $( ".grid-item" ).addClass( "book sites" );
+
     $(".book").toggle();
     $(".sites").toggle();
+    // $grid.marsonry('destory');
+    // $grid.masonry({ itemSelector: '.grid'});
 });
 
 $("#books-button").click(function(){
@@ -53,3 +59,6 @@ $(".slack").click(function(){
 
 
 });
+
+
+//Contact Form
