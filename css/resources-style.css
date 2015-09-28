@@ -62,8 +62,8 @@ a:hover {
   height: 120px;
   float: left;
   background: RGBA(245, 245, 245, .5);
-  border: 1px solid #fff;
-  border-color: hsla(0, 0%, 0%, 0.5);
+  /*border: 1px solid RGBA(25, 109, 149, 1);*/
+  border-color: RGBA(25, 109, 149, 1);
   border-radius: 1px;
   margin-bottom: 12px;
 }

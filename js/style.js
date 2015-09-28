@@ -13,7 +13,7 @@ $(document).ready(function() {
     $('.grid').masonry({
       itemSelector: '.grid-item',
       columnWidth: 160,
-      "gutter": 8
+      "gutter": 6
 
       //$grid.marsonry('destory');
       //$grid.masonry({ itemSelector: '.grid-item'});
@@ -59,6 +59,3 @@ $(".slack").click(function(){
 
 
 });
-
-
-//Contact Form

@@ -67,6 +67,85 @@ a:hover {
 }
 
 
+
+div.atom h4,
+div.paste h4,
+div.pocket h4,
+div.balsamiq h4,
+div.evernote h4,
+div.slack h4 {
+	-webkit-transform: translate3d(0,8px,0);
+	transform: translate3d(0,8px,0);
+}
+
+div.atom p,
+div.slack p {
+	-webkit-transform: translate3d(0,5px,0);
+	transform: translate3d(0,5px,0);
+}
+
+div.atom h4,
+div.paste h4,
+div.pocket h4,
+div.balsamiq h4,
+div.evernote h4,
+div.slack h4 {
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+div.atom p,
+div.slack p {
+  -webkit-transition: -webkit-transform 0.50s;
+	transition: transform 0.50s;
+}
+
+div.atom:hover h4,
+div.paste:hover h4,
+div.pocket:hover h4,
+div.balsamiq:hover h4,
+div.evernote:hover h4,
+div.slack:hover h4 {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+div.atom:hover p,
+div.slack:hover p {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+div.atom h4,
+div.paste h4,
+div.pocket h4,
+div.balsamiq h4,
+div.evernote h4,
+div.slack h4 {
+	opacity: 1;
+}
+
+div.atom:hover h4,
+div.paste:hover h4,
+div.pocket:hover h4,
+div.balsamiq:hover h4,
+div.evernote:hover h4,
+div.slack:hover h4 {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+	-webkit-transition-duration: 0.35s;
+	transition-duration: 0.35s;
+}
+
+
+
+
+
+
+
+
+
+
 /*
  * Base structure
  */
