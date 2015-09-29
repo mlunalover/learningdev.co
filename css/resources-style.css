@@ -19,27 +19,6 @@ a:hover {
   border: 1px solid #fff;
 }
 
-/* Custom dropdown button */
-
-/*.dropdown-menu li>a {
-  color:white;
-}
-
-.dropdown li{
-  background-color: RGBA(40, 44, 52, 1);
-}*/
-
-
-/*
- * Masonry for the Resource page
- */
-
- /*.img-thumbnail {
-    padding: 10px;
-}
-.post-box {
-    margin: 15px 0 15px 0;
-}*/
 
 
 .grid {
@@ -68,13 +47,13 @@ a:hover {
   margin-bottom: 12px;
 }
 
-.grid-item--width2 { width:  320px; }
+/*.grid-item--width2 { width:  320px; }
 .grid-item--width3 { width:  480px; }
 .grid-item--width4 { width:  720px; }
 
 .grid-item--height2 { height: 200px; }
 .grid-item--height3 { height: 260px; }
-.grid-item--height4 { height: 360px; }
+.grid-item--height4 { height: 360px; }*/
 
 /* ---- static-banner ---- */
 
@@ -84,7 +63,7 @@ a:hover {
   top: 0px;
   padding: 5px 3px;
   font-size: 22px;
-  z-index: 2; /* above items */
+  z-index: 2;
 
 }
 
@@ -94,7 +73,7 @@ a:hover {
   top: 0px;
   padding: 5px 5px;
   font-size: 22px;
-  z-index: 2; /* above items */
+  z-index: 2;
 
 }
 
@@ -104,7 +83,7 @@ a:hover {
   top: 0px;
   padding: 5px 5px;
   font-size: 22px;
-  z-index: 2; /* above items */
+  z-index: 2;
 
 }
 
@@ -165,7 +144,6 @@ a:hover {
   border-color: #24831a #24831a #13430d;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   *background-color: #24831a;
-  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
 
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
@@ -203,7 +181,6 @@ a:hover {
   border-color: #ef453b #ef453b #cd1b11;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   *background-color: #ef453b;
-  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
 
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
@@ -244,7 +221,6 @@ a:hover {
   border-color: #f29c47 #f29c47 #dd760f;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   *background-color: #f29c47;
-  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
 
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
@@ -416,4 +392,29 @@ body {
     width: 700px;
   }
 
+}
+
+@media (min-width: 1200px)  {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+.container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 768px) {
+.container {
+    width: 750px;
+  }
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
