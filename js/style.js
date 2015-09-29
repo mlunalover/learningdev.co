@@ -9,16 +9,29 @@ $(document).ready(function() {
 
   //Masonry Js
 
-    var masonryOptions = {
-      itemSelector: '.grid-item',
+    // var masonryOptions = {
+    //   itemSelector: '.grid-item',
+    //   columnWidth: 160,
+    //   "gutter": 6
+    //
+    //
+    //   };
+    //
+    // var $grid = $('.grid').masonry( masonryOptions );
+    // var isActive = true;
+
+
+    var $container = $('.grid');
+
+    $container.masonry({
       columnWidth: 160,
+      itemSelector: '.grid-item',
       "gutter": 6
+    });
 
 
-      };
 
-    var $grid = $('.grid').masonry( masonryOptions );
-    var isActive = true;
+
 
     // var $grid = $('.grid').masonry({
     //   itemSelector: '.grid-item',
@@ -33,35 +46,54 @@ $(document).ready(function() {
 
 //Resources Toggle
 
+
+// var grid = document.querySelector('.grid');
+//  var msnry = new Masonry( container, {
+//    columnWidth: 160
+//  });
+//
+//  var togglerButton1 = document.querySelector('#web-button');
+//  var areW2Hidden = true;
+//  eventie.bind( togglerButton1, 'click', function() {
+//    areW2Hidden = !areW2Hidden;
+//    container.className = areW2Hidden ? 'hide-book' : '';
+//    msnry.layout();
+//  });
+
+
+
 $("#web-button").click(function(){
-
-
-  //   if ( isActive ) {
-  //   $grid.masonry('destroy');
-  // } else {
-  //   $grid.masonry( masonryOptions );
-  // }
-  //
-  // isActive = !isActive;
-
-  // $('.grid').masonry('reload');
-
-  $(".book").toggle();
-  $(".sites").toggle();
-
-
-
+  $container.masonry('destroy');
+  $(".book, .sites, .webcourse").hide();
+  $('.webcourse').fadeIn();
+  $container.masonry({
+    columnWidth: 160,
+    itemSelector: '.grid-item',
+    "gutter": 6
+  });
 });
 
 $("#books-button").click(function(){
-    $(".webcourse").toggle();
-    $(".sites").toggle();
+  $container.masonry('destroy');
+  $(".book, .sites, .webcourse").hide();
+  $('.book').fadeIn();
+    $container.masonry({
+      columnWidth: 160,
+      itemSelector: '.grid-item',
+      "gutter": 6
+    });
 
 });
 
 $("#sites-button").click(function(){
-    $(".webcourse").toggle();
-    $(".book").toggle();
+  $container.masonry('destroy');
+  $(".book, .sites, .webcourse").hide();
+  $('.sites').fadeIn();
+    $container.masonry({
+      columnWidth: 160,
+      itemSelector: '.grid-item',
+      "gutter": 6
+    });
 });
 
 
