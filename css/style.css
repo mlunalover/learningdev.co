@@ -289,6 +289,23 @@ body {
 }
 
 /*
+ * Blog Page
+ */
+
+.blog {
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+.blog-header  {
+  font-weight: bold;
+}
+
+.blog p {
+  padding-top: 15px;
+}
+
+/*
  * Footer
  */
 
