@@ -305,6 +305,10 @@ body {
   padding-top: 15px;
 }
 
+article img {
+  max-width: 100%;
+}
+
 /*
  * Footer
  */
